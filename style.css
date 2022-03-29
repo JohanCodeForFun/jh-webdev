@@ -4,15 +4,11 @@
     box-sizing: border-box;
 }
 
+/*
 header, footer, nav, .abovetf, .portfolio, .testimonial, .cta {
     padding: 1em;
 }
-
-#main {
-    display: flex;
-    flex-direction: column;
-    flex: 1 0 auto;
-}
+*/
 
 .header-nav {
     color: #f8f8ff;
@@ -36,14 +32,39 @@ li {
 
 }
 
+#main {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#main > div {
+    flex: 1;
+}
+
+
 .abovetf {
     background-color: #005042;
-    flex: 1 0 250vh;
+    display: flex;
+    flex-direction: row;
     color: #f8f8ff;
+    justify-content: center;
+    align-items: flex-end;
+    border-color: 2px solid red;
+}
+.abovetf-text {
+    flex: 1;
+    border-color: 2px solid red;
+}
+.abovetf-img {
+    flex: 1;
+    border-color: 2px solid red;
 }
 
 .portfolio {
-    flex: 1 auto;
+    flex: 400 auto;
 }
 
 .testimonial {
@@ -57,6 +78,7 @@ li {
 
 .cta-btn {
     background-color: #33C279;
+    border-radius: 6px;
 }
 
 
