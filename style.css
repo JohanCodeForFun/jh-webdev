@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer, nav, .abovetf, .portfolio, .testimonial, .cta {
+    padding: 1em;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+
+.header-nav {
+    color: #f8f8ff;
+    display: flex;
+    flex-direction: row;
+    background-color: #005042;
+    flex: 0 0 8vh;
+    justify-content: center;
+}
+.push {
+    margin-left: auto;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+li {
+    flex: 1 0 auto;
+    padding: 2px;
+
+}
+
+.abovetf {
+    background-color: #005042;
+    flex: 1 0 250vh;
+    color: #f8f8ff;
+}
+
+.portfolio {
+    flex: 1 auto;
+}
+
+.testimonial {
+    flex: 1 auto;
+    background-color: #715F58;
+}
+
+.cta {
+    flex: 1 auto;
+}
+
+.cta-btn {
+    background-color: #33C279;
+}
+
+
+
+footer {
+    background-color: #005042;
+    color: #f8f8ff;
+    flex: 0 0 8vh;
+    text-align: center;
+    justify-content: center;
+}
+
+/* color palette
+Background, Urban green, #005042
+alternative-bg, grey, #715F58
+highligt, #33C279
+off-white, #FBEAFF
+
+Link,  
+https://mycolor.space/?hex=%23005042&sub=1
+
+*/
+
