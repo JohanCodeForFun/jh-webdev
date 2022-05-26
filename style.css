@@ -2,13 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-align: center;
 }
 
-/*
-header, footer, nav, .abovetf, .portfolio, .testimonial, .cta {
-    padding: 1em;
-}
-*/
 
 .header-nav {
     color: #FBEAFF;
@@ -56,7 +52,6 @@ li {
     display: flex;
     height: 50%;
     width: 80%;
-
 }
 
 .abovetf-text-container {
@@ -65,6 +60,15 @@ li {
 
 .abovetf-text {
     flex: 1;
+    background-color: red;
+    border: solid yellow 5px;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.abovetf-text > p  {
+    font-size: 18px;
+
 }
 
 .btn-signup {
@@ -91,27 +95,31 @@ li {
     background-color: #5B8C6D;
 }
 
-.portfolio-container {
-    display: flex;
+.portfolio-title {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.portfolio-div {
+
     height: 400px;
+
 }
 
-.portfolio-text {
-    flex: 1;
-    background-color: #C692FF;
+img {
+    width: 200px;
+    height: 200px;
 }
 
-.portfolio-1234  {
-    background-color: red;
-    width: 60%;
-    height: 60%;
+.portfolio-container  {
+    max-width: 200px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.portfolio-1234 > div {
-    background-color: #F9F871;
-    flex: 1;
+    background-color: yellow;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
 }
 
 
@@ -120,6 +128,8 @@ li {
     flex: 1 auto;
     height: 400px;
     background-color: #715F58;
+    font-size: 36px;
+    font-style: italic;
 }
 
 .cta {
@@ -127,9 +137,40 @@ li {
     height: 400px;
 }
 
+.cta-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 100px;
+
+}
+
+.cta-border {
+    flex: 1;
+    background-color: #33C279;
+    height: 150px;
+    width: 80%;
+    padding-top: 40px;
+}
+
+.cta-title {
+    color: #FBEAFF;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.cta-text {
+    color: #FBEAFF;
+}
+
 .cta-btn {
     background-color: #33C279;
     border-radius: 6px;
+    border-color: #FBEAFF;
+    border-style: solid;
+    padding: 8px 24px;
+    color: #FBEAFF;
+    font-weight: 700;
 }
 
 
