@@ -7,18 +7,18 @@
 
 
 .header-nav {
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     color: #FBEAFF;
     background-color: #005042;
-    padding-left: 40px;
+    padding-left: 10%;
+    padding-top: 12px;
 }
 
 
 .right-links {
-    padding-right: 40px;
+    padding-right: 10%;
 }
 
 ul {
