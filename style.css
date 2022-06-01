@@ -99,6 +99,21 @@ li {
     background-color: #5B8C6D;
 }
 
+.portfolio-div {
+    height: 400px;
+}
+
+.portfolio-container  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.portfolio {
+    max-width: 200px;
+}
+
 .portfolio-title {
     margin-top: 32px;
     margin-bottom: 32px;
@@ -106,24 +121,12 @@ li {
     font-weight: 700;
 }
 
-.portfolio-div {
-
-    height: 400px;
-
-}
-
 img {
-    width: 200px;
-    height: 200px;
-}
-
-.portfolio-container  {
-    max-width: 200px;
-    display: flex;
-    background-color: yellow;
-    justify-content: center;
-    align-items: center;
-    gap: 52px;
+    width: 150px;
+    height: 150px;
+    border: 5px solid #33C279;
+    border-radius: 10px;
+    flex: 1;
 }
 
 
@@ -163,6 +166,8 @@ img {
     display: flex;
     flex-direction: column;
     background-color: #33C279;
+    border: #33C279 solid 5px;
+    border-radius: 10px;
     height: 150px;
     width: 80%;
     padding-top: 40px;
