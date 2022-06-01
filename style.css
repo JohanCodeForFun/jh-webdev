@@ -55,24 +55,22 @@ li {
 
 .abovetf-container {
     display: flex;
-    height: 50%;
+    flex-direction: row;
+    min-height: 50%;
     width: 80%;
-}
-
-.abovetf-text-container {
-    width: 50%;
 }
 
 .abovetf-text {
     flex: 1;
-    background-color: red;
-    border: solid yellow 5px;
     font-size: 48px;
     font-weight: 700;
+    text-align: left;
 }
 
 .abovetf-text > p  {
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: left;
 }
 
 .btn-signup {
@@ -93,10 +91,12 @@ li {
 }
 
 .abovetf-img {
-    flex: 1;
+    display: flex;
     width: 100%;
     height: 100%;
     background-color: #5B8C6D;
+    align-items: center;
+    justify-content: center;
 }
 
 .portfolio-div {
